@@ -1,0 +1,95 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 99, 71, 0.808);
+}
+#navbar{
+    margin: 0 0.2%;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 12px;
+    padding-right: 4%;
+    border: 5px solid rebeccapurple;
+    border-radius:5% 15%;
+    border-top: 5px solid rebeccapurple;
+    background-color: #fff;
+}
+#navbar a{
+    text-decoration: none;
+    background-color: transparent;
+    color: #222;
+}
+#navbar>div{
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 3%;
+    background-color: #fff;
+
+}
+
+#poster{
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+    /* width: 98%; */
+    /* height: 90vh; */
+}
+#poster>img{
+    border-radius: 20% 10%;
+}
+#footer{
+    /* height: 50px; */
+    background-color: blue;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Menu */
+
+#menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    padding: 10px;
+    background-color: crimson;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+.cont >img{
+    width: 80%;
+    border-radius: 10px;
+}
+.mealname{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(58, 8, 105);
+    margin: 0 20px;
+    background-color: crimson;
+}
+#addtocart{
+    padding:5px 32px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgb(42, 110, 165);
+}
+#count{
+    cursor: pointer;
+}
+#count>span{
+    border-radius: 30%;
+}
+.price{
+    background-color: crimson;
+    font-size: 20px;
+    font-weight: bold;
+}

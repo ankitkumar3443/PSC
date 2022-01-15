@@ -1,0 +1,16 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 99, 71, 0.808);
+}
+
+#order-form{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 100px 400px;
+    grid-gap: 10px;
+    justify-content: center;
+    padding: 50px;
+}
